@@ -1,0 +1,10 @@
+<p>assignmenttwo works!</p>
+
+
+<input type="text" class="form-control" 
+    [(ngModel)] = "username"
+>
+
+<p>{{username}}</p>
+
+<button class="btn btn-primary" (click)="onClickMe()" [disabled]="onDisable()">click me</button>
